@@ -50,4 +50,8 @@ module.exports = {
 			start ? `?start=${start}` : ''
 		}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>`
 	},
+
+	pic: function(slug, style) {
+		return `<img src="${slug}" style="${style}"/>`;
+	}
 }
